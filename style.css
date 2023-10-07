@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+
+
+.myResult{
+    background-color: rgb(202, 235, 249);
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 2px 2px rgb(135, 206, 237);
+    margin-top: 50px;
+    display: block;
+    position: relative;
+    border-radius: 20%;
+    transition-duration: 0.4s;
+}
+.divBtn{
+    margin-top: 15px;
+}
+.myExp{
+    padding: 35px;
+    font-size: x-large;
+    font-family: 'Quicksand', sans-serif;
+}
+.myOutput{
+    text-align: end;
+    padding: 35px;
+    font-size: 4ch;
+    font-family: 'Quicksand', sans-serif;
+}
+.blue{
+    background-color: #037AFF ;
+    border: none;
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    font-size: 20pt;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    border-radius: 10%;
+    color: white;
+    transition-duration: 0.4s;
+}
+.blue:hover {
+    background-color:#82bbf8 ;
+    color: white;
+}
+.divBtn{
+    text-align: center;
+}
+.opratorBtn{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20pt;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: transparent;
+    border-color: #0073ff;
+    color: #037AFF;
+    transition-duration: 0.4s; 
+}
+.opratorBtn:hover {
+    background-color:#037AFF ;
+    color: white;
+}
+.allClearBtn{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20pt;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: transparent;
+    border-color: #28A845;
+    color: #28A845; 
+    transition-duration: 0.4s ;
+    box-shadow: 0px 0px 2px 2px rgb(74, 243, 85);
+}
+.allClearBtn:hover {
+    background-color:#28A845 ;
+    color: white;
+}
+.clearBtn{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20pt;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: transparent;
+    border-color: #DD3545;
+    color: #DD3545; 
+    box-shadow: 0px 0px 2px 2px rgb(247, 170, 170);
+    transition-duration: 0.4s ;
+}
+.clearBtn:hover {
+    background-color:#DD3545 ;
+    color: white;
+}
+.equalBtn{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20pt;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: transparent;
+    border-color: #28A9BD;
+    color: #28A9BD; 
+    transition-duration: 0.4s ;
+    box-shadow: 0px 0px 2px 2px rgb(5, 196, 199);
+}
+.equalBtn:hover {
+    background-color:#28A9BD ;
+    color: white;
+}
