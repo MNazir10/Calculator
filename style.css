@@ -11,20 +11,19 @@
     margin-top: 50px;
     display: block;
     position: relative;
-    border-radius: 20%;
+    border-radius: 15%;
     transition-duration: 0.4s;
+    padding: 5px;
 }
 .divBtn{
-    margin-top: 15px;
+    margin-top: 50px;
 }
 .myExp{
-    padding: 35px;
     font-size: x-large;
     font-family: 'Quicksand', sans-serif;
 }
 .myOutput{
     text-align: end;
-    padding: 35px;
     font-size: 4ch;
     font-family: 'Quicksand', sans-serif;
 }
